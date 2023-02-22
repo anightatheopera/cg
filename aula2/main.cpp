@@ -87,6 +87,14 @@ void renderScene(void) {
 		glVertex3f(-1.0f, -1.0f, -1.0f);
 		glVertex3f(-1.0f, -1.0f, 1.0f);
 		glEnd();
+		// draw square
+		glBegin(GL_QUADS);
+		glColor3f(1.0f,1.0f, 1.0f);
+		glVertex3f(-1.0f, -1.0f, 1.0f);
+		glVertex3f(1.0f, -1.0f, 1.0f);
+		glVertex3f(1.0f, -1.0f, -1.0f);
+		glVertex3f(-1.0f, -1.0f, -1.0f);
+		glEnd();
 	
 
 	glutSwapBuffers();
@@ -262,7 +270,7 @@ int main(int argc, char **argv) {
 
 //  OpenGL settings
 	glEnable(GL_DEPTH_TEST);
-	//glEnable(GL_CULL_FACE);
+	glEnable(GL_CULL_FACE);
 	
 // enter GLUT's main cycle
 	glutMainLoop();
