@@ -1,3 +1,0 @@
-/home/anightatheopera/Documents/cg/aula5/CMakeFiles/class5.dir
-/home/anightatheopera/Documents/cg/aula5/CMakeFiles/edit_cache.dir
-/home/anightatheopera/Documents/cg/aula5/CMakeFiles/rebuild_cache.dir
